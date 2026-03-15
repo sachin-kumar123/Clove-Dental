@@ -1,0 +1,713 @@
+ body {
+     overflow-x: hidden;
+ }
+
+
+ .navbar {
+     background-color: #FFFAF5;
+ }
+
+ .btn-primary {
+     background-color: #F8943F;
+     border-color: #F8943F;
+ }
+
+ .btn-primary:hover {
+     background-color: #F8943F;
+     border-color: #F8943F;
+ }
+
+ /*frame start*/
+ .frame .container {
+     max-width: 1440px;
+ }
+
+ .frame .container {
+     background-color: #FFF9F4;
+ }
+
+ .frame p {
+     font-size: 16px;
+     color: #474747;
+ }
+
+ .frame h2 {
+     font-size: 20px;
+     font-weight: bold;
+     line-height: 130%;
+ }
+
+ .frame img {
+     width: 976px;
+     height: 450px;
+ }
+
+ /*form start*/
+ .custom-input {
+     border: 1px solid #FFE0C4;
+ }
+
+ .custom-input:focus {
+     border-color: #FFE0C4;
+     box-shadow: none;
+ }
+
+ .form-control {
+     display: block;
+     width: 393px;
+     height: 38px;
+ }
+
+ .input-group {
+     width: 80%;
+ }
+
+ .form-check-label {
+     font-size: 14px;
+ }
+
+ .frame .btn-primary {
+     width: 393px;
+     height: 38px;
+ }
+
+ .input-group .form-control {
+     border-radius: 50px 0 0 50px;
+     /* left side round */
+ }
+
+ .input-group .input-group-text {
+     border-radius: 0 50px 50px 0;
+     /* right side round */
+ }
+
+ .frame .input-group {
+     width: 393px;
+     height: 38px;
+ }
+
+ .frame .input-group-text {
+     background-color: #462512;
+     width: 110px;
+     color: white;
+ }
+
+ /*form end*/
+ .frame .icon img {
+     width: 34px;
+     height: 38px;
+ }
+
+ .marquee-row {
+     display: flex;
+     align-items: center;
+     gap: 60px;
+ }
+
+ .item {
+     display: flex;
+     align-items: center;
+ }
+
+ .item img {
+     width: 30px;
+ }
+
+ .item p {
+     margin: 0;
+     margin-left: 8px;
+     font-weight: 700;
+ }
+
+ .count {
+     color: #F58420;
+     font-weight: bold;
+ }
+
+ .text {
+     color: #000000;
+ }
+
+ /*frame end*/
+ /*treatment start*/
+ .card-scroll::-webkit-scrollbar {
+     display: none;
+ }
+
+ .card-scroll {
+     -ms-overflow-style: none;
+     scrollbar-width: none;
+ }
+
+ .section-padding {
+     padding: 60px 0;
+ }
+
+ .treatment .card {
+     width: 640px;
+     object-fit: cover;
+ }
+
+ .card {
+     border: 1px solid #FFE0C4;
+     border-radius: 20px;
+ }
+
+ .card img {
+     border-radius: 20px 0 0 20px;
+     width: 320px;
+     height: 332px;
+     object-fit: cover;
+ }
+
+ .treatment .card ul li {
+     font-size: 16px;
+ }
+
+ .card p {
+     font-size: 16px;
+ }
+
+ .price-tittle {
+     color: #F58420;
+ }
+
+ .card-body a {
+     text-decoration: none;
+ }
+
+ .treatment a {
+     text-decoration: none;
+ }
+
+ /*treatment end*/
+
+ /*real smile start*/
+ .real h2 {
+     font-size: 20px;
+ }
+
+ .mb-img::-webkit-scrollbar {
+     display: none;
+ }
+
+ .mb-img {
+     -ms-overflow-style: none;
+     scrollbar-width: none;
+ }
+
+ /*real smile end*/
+ /*why choose start*/
+ .accordion-item-custom {
+     border: none;
+ }
+
+ .accordion-button:focus {
+     box-shadow: none;
+     border: none;
+ }
+
+ .accordion-button::after {
+     display: none;
+ }
+
+ .accordion-button:not(.collapsed) {
+     background-color: none;
+ }
+
+ .accordion-item {
+     margin-bottom: 10px;
+ }
+
+ /*why choose end*/
+ .video-img {
+     width: 224px;
+     height: 350px;
+     object-fit: cover;
+     border-radius: 10px;
+ }
+
+ /*appointment start*/
+ .appointment {
+     background-color: #FFF9F4;
+     padding: 20px 10px;
+ }
+
+ .appointment .form-control {
+     width: 416px;
+ }
+
+ .appointment .form-check-label {
+     font-size: 12px;
+     color: #303030;
+ }
+
+ .appointment .btn-primary {
+     width: 306px;
+ }
+
+ .appointment .input-group-text {
+     background-color: #462512;
+     width: 110px;
+     color: white;
+ }
+
+ .appointment .input-group-text {
+     white-space: nowrap;
+ }
+
+ .appointment .input-group {
+     width: 416px;
+     height: 38px;
+ }
+
+ /*appointment end*/
+ /*patient start*/
+ .patients-img img {
+     width: 224px;
+     height: 350px;
+     border-radius: 10px;
+ }
+
+ .patient-scroll::-webkit-scrollbar {
+     display: none;
+ }
+
+ .patient-scroll {
+     -ms-overflow-style: none;
+     scrollbar-width: none;
+ }
+
+ /*patient end*/
+ /*safety start*/
+ .img-box {
+     position: relative;
+ }
+
+ .img-content {
+     position: absolute;
+     bottom: 10px;
+     left: -10px;
+     color: #fff;
+     background-color: #112230;
+     padding: 20px;
+     border-radius: 10px;
+ }
+
+ .img-content {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     text-align: center;
+     color: #fff;
+ }
+
+ .line {
+     width: 181px;
+     height: 10px;
+     border: 10px;
+     color: #EA7D28;
+ }
+
+ .img-content h5 {
+     display: flex;
+     align-items: center;
+     gap: 10px;
+ }
+
+ .img-content h5::after {
+     content: "";
+     flex-shrink: 0;
+     margin-left: 10px;
+     width: 170px;
+     height: 10px;
+     background-color: orange;
+     border-radius: 10px;
+ }
+
+ .img-content p {
+     font-size: 14px;
+     color: #FFFFFF;
+ }
+
+ /*safety end*/
+ /*google-review start*/
+ .google-review {
+     background-color: #FFF9F5;
+     width: 1440px;
+     height: 300px;
+
+ }
+
+ .google-review .quats {
+     width: 302px;
+     height: 202px;
+     background-color: white;
+     border-radius: 15px;
+ }
+
+ .google-review .quats img {
+     width: 51px;
+     height: 51px;
+     border-radius: 50%;
+ }
+
+ .thought {
+     font-size: 12px;
+ }
+
+ .custom-star {
+     color: gold;
+ }
+
+ .col-4 .d-flex {
+     display: flex;
+     align-items: center;
+     gap: 5px;
+ }
+
+ .rating {
+     color: #EA7D28;
+ }
+
+ /*google review start*/
+
+ /*google-review end*/
+ /*clinic start*/
+ .clinic .custom-icon img {
+     width: 56px;
+     height: 56px;
+     padding-right: 20px;
+ }
+
+ .clinic .custom-icon {
+     border: 1px solid #D0D0D0;
+     border-radius: 10px;
+     display: flex;
+     padding: 10px 40px;
+ }
+
+ .clinic .custom-icon p {
+     font-size: 16px;
+     font-weight: 600;
+ }
+
+ .custom-icon h6 {
+     font-weight: 600;
+ }
+
+ /*clinic end*/
+ /*coupon start*/
+ .coupon {
+     background-color: #FFF9F4;
+     width: 540px;
+     height: 345px;
+     border: 1px solid #FFE0C4;
+     border-radius: 10px;
+     padding: 20px;
+ }
+
+ .coupon .form-control {
+     display: block;
+     width: 393px;
+ }
+
+ .coupon .input-group {
+     width: 393px;
+ }
+
+ .coupon .card {
+     width: 760px;
+     height: 345px;
+ }
+
+ .voucher .card img {
+     border-radius: 20px 0 0 20px;
+     width: 399px;
+     height: 345px;
+     object-fit: cover;
+ }
+
+ .voucher .card {
+     height: 345px;
+     width: 700px;
+ }
+
+ .voucher .btn-primary {
+     width: 138px;
+ }
+
+ /*coupon end*/
+ /*footer start*/
+ .footer {
+     background-color: #462512;
+     padding: 15px 0;
+ }
+
+ .footer ul li {
+     color: white;
+     padding-bottom: 10px;
+ }
+
+ .footer ul {
+     border-bottom: 2px solid white;
+ }
+
+ footer p {
+     color: white;
+     font-size: 16px;
+     padding-top: 5px;
+ }
+
+ /*footer end*/
+ @media (max-width: 767px) {
+     .frame img {
+         width: 400px;
+         height: 394px;
+     }
+
+     .frame .input-group {
+         width: 358px;
+         height: 38px;
+     }
+
+     .frame .btn-primary {
+         width: 358px;
+         height: 38px;
+     }
+
+     .btn-primary {
+         background-color: #F8943F;
+         border-color: #F8943F;
+         width: 326px;
+     }
+
+     .form-control {
+         display: block;
+         width: 100%;
+     }
+
+     .input-group {
+         width: 100%;
+     }
+
+     .form-check-label {
+         font-size: 14px;
+         width: 100%;
+     }
+
+     .card img {
+         border-radius: 20px 20px 0 0;
+         width: 365px;
+         height: 342px;
+         object-fit: cover;
+     }
+
+     .treatment .card {
+         width: 367px;
+         object-fit: cover;
+     }
+
+     .appointment .form-control,
+     .input-group {
+         width: 100%;
+     }
+
+     .appointment .input-group {
+         width: 354px;
+         height: 38px;
+     }
+
+     .appointment .btn-primary {
+         width: 354px;
+     }
+
+     .google-review {
+         width: 390px;
+         height: 570px;
+     }
+
+     .img-content {
+         width: 300px;
+         transform: translate(-50%, 5.5%)
+     }
+
+     .img-content {
+         border-radius: 0 0 20px 20px;
+     }
+
+     .img-content h5 {
+         font-size: 18px;
+     }
+
+     .img-content h5::after {
+         width: 107px;
+     }
+
+     .custom-clinic {
+         width: 300px;
+         height: 353px;
+         border-radius: 20px;
+     }
+
+     .review-scroll {
+         overflow-x: auto;
+         scroll-behavior: smooth;
+     }
+
+     .review-scroll::-webkit-scrollbar {
+         display: none;
+     }
+
+     .review-scroll {
+         -ms-overflow-style: none;
+         scrollbar-width: none;
+     }
+
+     .review-card {
+         min-width: 250px;
+     }
+
+     .review-scroll {
+         flex-wrap: wrap;
+         overflow: visible;
+     }
+
+     .review-card {
+         min-width: auto;
+         flex: 0 0 33.33%;
+     }
+
+     .google-review .quats {
+         width: 252px;
+         height: 300px;
+     }
+
+     .google-review .read-more i {
+         font-size: 20px;
+         color: #E9811F;
+     }
+
+     .google-review .read-more p {
+         color: #E9811F;
+         font-size: 16px;
+     }
+
+     .thought {
+         font-size: 16px;
+         text-align: left;
+     }
+
+     .review-scroll {
+         flex-wrap: nowrap;
+         overflow-x: auto;
+     }
+
+     .review-scroll::-webkit-scrollbar {
+         display: none;
+     }
+
+     .review-scroll {
+         scrollbar-width: none;
+     }
+
+     .coupon p {
+         font-size: 16px;
+         text-align: center;
+         width: 70%;
+     }
+
+     .coupon .form-control {
+         display: block;
+         width: 326px;
+     }
+
+     .coupon .form-check-label {
+         font-size: 14px;
+         width: 80%;
+     }
+
+     .coupon .btn-primary {
+         display: block;
+         width: 326px;
+     }
+
+     .voucher .card img {
+         border-radius: 20px 20px 0 0;
+         width: 358px;
+         height: 326px;
+         object-fit: cover;
+     }
+
+     .voucher .card {
+         height: 700px;
+         width: 358px;
+     }
+
+     .footer img {
+         width: 110px;
+         height: 44px;
+     }
+
+     .mobile-scroll-wrapper {
+         overflow-x: auto;
+         /* horizontal scroll */
+         -webkit-overflow-scrolling: touch;
+         /* smooth scroll on iOS */
+     }
+
+     .mobile-scroll-wrapper .d-flex {
+         flex-wrap: nowrap;
+         /* keep items in a single row */
+     }
+
+     .mobile-scroll-wrapper {
+         overflow-x: visible;
+         /* desktop normal layout */
+     }
+
+     .mobile-scroll {
+         display: flex;
+         flex-wrap: nowrap;
+         overflow-x: auto;
+     }
+
+     .mobile-scroll::-webkit-scrollbar {
+         display: none;
+     }
+
+     .mobile-scroll {
+         scrollbar-width: none;
+     }
+
+     .mobile-scroll .col-6 {
+         min-width: 70%;
+     }
+
+     .clinic .mobile-scroll img {
+         width: 269px;
+         height: 207px;
+         border-radius: 8px;
+         padding: 40px 0 0 15px;
+     }
+
+     .coupon {
+         width: 358px;
+         height: 390px;
+         border: transparent;
+     }
+
+     .coupon p {
+         width: 95%;
+     }
+
+     .mobile-margin {
+         margin-top: 30px;
+     }
+
+     .voucher .btn-primary {
+         width: 342px;
+         height: 38px;
+     }
+ }
